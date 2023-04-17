@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../estilos/estilos.css">
+
+  <title>Currículo - Edgard Araujo de Oliveira</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="curriculo-container">
+      <div class="curriculo-imagem">
+        <img class="curriculo-foto" src="../img/eu.jpg" alt="foto Edgard">
+      </div>
+      <div class="curriculo-apresentacao">
+        <h2>Edgard Araujo de Oliveira</h2>
+      </div>
+    </div>
+
+    <div class="curriculo-titulos">
+      <span>Desenvolvedor sênior |</span>
+      <span>Desenvolvedor front-end |</span>
+      <span>Desenvolvedor Angular |</span>
+      <span>MBA em gestão de projetos |</span>
+      <span>MIT em engenharia de software com JAVA |</span>
+      <span>Bootcamp desenvolvedor front-end com React (em curso) |</span>
+      <span>Brasas online english course (em curso)</span>
+    </div>
+  </div>
+
+  <div class="contatos-container">
+    <h3 class="contatos-titulo">Contato</h3>
+    <div class="contatos-mensagem">
+      <form class="form-contato" method="post" action="https://getform.io/f/563d66ee-b660-4ef3-92c5-9cc900289252">
+        <div class="form-inputs">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" placeholder="Digite seu nome" minlength="4" maxlength="32" required>
+        </div>
+        <div class="form-inputs">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" minlength="10"
+            maxlength="20" required>
+        </div>
+        <div class="form-inputs">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Digite seu email" minlength="9" maxlength="30"
+            required>
+        </div>
+
+        <div>Motivo do contato:</div>
+        <div class="form-contato">
+          <input type="radio" id="profissional" name="contato" value="profissional" required>
+          <label for="profissional">Fins profissionais</label>
+          <input type="radio" id="academico" name="contato" value="academico" required>
+          <label for="academico">Fins acadêmicos</label>
+          <input type="radio" id="amizade" name="contato" value="amizade" required>
+          <label for="amizade">Fazer amizade</label>
+          <input type="radio" id="videogame" name="contato" value="videogame" required>
+          <label for="videogame">Jogar video game</label>
+        </div>
+
+        <div class="form-inputs">
+          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5" minlength="20"
+            maxlength="320" required></textarea>
+        </div>
+
+        <div class="form-contato">
+          <input type="checkbox" id="urgencia" name="urgencia" value="sim">
+          <label for="urgencia"> Preciso de um retorno com urgência</label>
+        </div>
+
+        <div class="form-inputs">
+          <input class="form-submit" type="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="navbar-footer">
+    <a href="../index.html">Sobre</a>
+    <a href="experiencias-profissionais.html">Experiência</a>
+    <a href="contatos.html">Contato</a>
+  </div>
+
+  <script src="../script/script.js"></script>
+</body>
+
+</html>

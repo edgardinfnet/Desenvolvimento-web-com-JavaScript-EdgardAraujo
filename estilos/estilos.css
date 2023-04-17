@@ -1,0 +1,217 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: #ededed;
+  color: #002855;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.header {
+  background-color: #002855;
+  color: #ededed;
+  top: 0;
+  width: 100%;
+}
+
+.header .curriculo-titulos,
+.home-container div {
+  padding: 0 14px 8px 14px;
+}
+
+.curriculo-titulos {
+  color: #c1c6c8;
+}
+
+.curriculo-container {
+  padding-top: 12px;
+}
+
+.curriculo-container,
+.experiencias-apresentacao,
+.formacao-academica-apresentacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.curriculo-imagem {
+  padding: 0 0 0 8px;
+}
+
+.curriculo-foto {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #ededed;
+}
+
+.curriculo-apresentacao {
+  margin: 8px 0 12px 2px;
+}
+
+.curriculo-apresentacao-autor {
+  margin: 0;
+}
+
+/* .curriculo-apresentacao div {
+  margin-right: 20px;
+} */
+
+.container,
+.experiencias-container,
+.formacao-academica-container,
+.cursos-container,
+.contatos-container {
+  padding: 0 14px 44px 14px;
+}
+
+.sobre-titulo {
+  width: 80px;
+  border-bottom: 5px solid #002855;
+  border-radius: 8px;
+}
+
+.experiencias-titulo {
+  width: 290px;
+  border-bottom: 5px solid #002855;
+  border-radius: 8px;
+}
+
+.experiencias-apresentacao a,
+.experiencias-apresentacao a:visited,
+.formacao-academica-apresentacao a,
+.formacao-academica-apresentacao a:visited {
+  color: #002855;
+}
+
+.experiencias-atividades {
+  text-align: justify;
+  border-bottom: 3px solid #fcfcfc;
+  padding-bottom: 18px;
+}
+
+.sem-imagem {
+  height: 100px;
+  width: 100px;
+}
+
+.formacao-academica-titulo {
+  width: 240px;
+  border-bottom: 5px solid #002855;
+  border-radius: 8px;
+}
+
+.formacao-academica-apresentacao {
+  border-bottom: 3px solid #fcfcfc;
+}
+
+.cursos-titulo {
+  width: 160px;
+  border-bottom: 5px solid #002855;
+  border-radius: 8px;
+}
+
+.contatos-titulo {
+  width: 120px;
+  border-bottom: 5px solid #002855;
+  border-radius: 8px;
+}
+
+.form-contato {
+  padding-bottom: 15px;
+}
+
+.form-radio-inline {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.form-submit {
+  padding: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #002855;
+  color: #ededed;
+}
+
+.navbar-footer {
+  background-color: #002855;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar-footer a {
+  text-decoration: none;
+  color: #ededed;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.navbar-footer a:nth-child(2) {
+  border-left: 3px solid #ededed;
+  border-right: 3px solid #ededed;
+}
+
+@media (min-width: 992px) {
+
+  .container,
+  .experiencias-container,
+  .formacao-academica-container,
+  .cursos-container,
+  .contatos-container {
+    width: 720px;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .curriculo-container {
+    width: 720px;
+    margin: auto;
+  }
+
+  .curso-lista {
+    list-style-type: circle;
+  }
+
+  .curriculo-titulos {
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .sobre-container {
+    text-align: justify;
+  }
+
+  .formacao-academica-apresentacao {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    height: 95px;
+  }
+
+}
