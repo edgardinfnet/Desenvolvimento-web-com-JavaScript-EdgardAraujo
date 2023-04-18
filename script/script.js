@@ -21,10 +21,17 @@ async function apresentacao() {
 async function listarTitulos() {
   const response = await fetch("/asset/json/titulos.json");
   const titulos = await response.json();
-
-  titulos.forEach(t => {
+  const tam = titulos.length;
+  
+  titulos.forEach((t, index) => {
     const listarTitulos = document.createElement('span');
-    listarTitulos.innerHTML = t.titulo;
+    
+    if(index+1 === tam) {
+      listarTitulos.innerHTML = t.titulo;
+    } else {
+      listarTitulos.innerHTML = t.titulo + " | ";  
+    }
+    
     curriculoTitulos.appendChild(listarTitulos);
   });
 }
