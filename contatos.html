@@ -27,25 +27,24 @@
   <div class="contatos-container">
     <h3 class="contatos-titulo">Contato</h3>
     <div class="contatos-mensagem">
-      <form class="form-contato" method="post" action="https://getform.io/f/563d66ee-b660-4ef3-92c5-9cc900289252">
+      <form novalidate id="form-contato" class="form-contato" method="post"
+        action="https://getform.io/f/563d66ee-b660-4ef3-92c5-9cc900289252">
         <div class="form-inputs">
           <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome" placeholder="Digite seu nome" minlength="4" maxlength="32" required>
+          <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
         </div>
         <div class="form-inputs">
           <label for="telefone">Telefone:</label>
-          <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" minlength="10"
-            maxlength="20" required>
+          <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
         </div>
         <div class="form-inputs">
           <label for="email">Email:</label>
-          <input type="email" name="email" id="email" placeholder="Digite seu email" minlength="9" maxlength="30"
-            required>
+          <input type="email" name="email" id="email" placeholder="Digite seu email">
         </div>
 
         <div>Motivo do contato:</div>
         <div class="form-contato">
-          <input type="radio" id="profissional" name="contato" value="profissional" required>
+          <input type="radio" id="profissional" name="contato" value="profissional">
           <label for="profissional">Fins profissionais</label>
           <input type="radio" id="academico" name="contato" value="academico" required>
           <label for="academico">Fins acadêmicos</label>
@@ -56,8 +55,7 @@
         </div>
 
         <div class="form-inputs">
-          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5" minlength="20"
-            maxlength="320" required></textarea>
+          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5"></textarea>
         </div>
 
         <div class="form-contato">
@@ -79,5 +77,7 @@
   </div>
 
   <script src="script/script.js"></script>
+  <script src="script/contato.js"></script>
 </body>
+
 </html>

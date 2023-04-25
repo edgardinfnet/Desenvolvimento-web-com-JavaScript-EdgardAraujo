@@ -1,0 +1,27 @@
+[
+    {
+      "url": "https://www.infnet.edu.br/infnet/instituto/",
+      "imagem": "img/infnet.jpeg",
+      "instituicao": "Instituto Infnet",
+      "curso": "Bootcamp Desenvolvedor Front-End com React, Tecnologia",
+      "periodo": "Janeiro de 2023 - julho de 2023 (previsão)"
+    },{
+      "url": "https://www.infnet.edu.br/infnet/instituto/",
+      "imagem": "img/infnet.jpeg",
+      "instituicao": "Instituto Infnet",
+      "curso": "MIT em engenharia de software com JAVA, Engenharia de Software",
+      "periodo": "Agosto de 2018 - agosto de 2020"
+    },{
+      "url": "https://www.unisuam.edu.br/",
+      "imagem": "img/unisuam.jpeg",
+      "instituicao": "UNISUAM",
+      "curso": "MBA em Gestão de Projetos, Gestão de Projetos",
+      "periodo": "Março de 2014 - maio de 2015"
+    },{
+      "url": "https://www.unisuam.edu.br/",
+      "imagem": "img/unisuam.jpeg",
+      "instituicao": "UNISUAM",
+      "curso": "Superior de Tecnologia em Informática",
+      "periodo": "Janeiro de 2010 - janeiro de 2013"
+    }
+  ]
