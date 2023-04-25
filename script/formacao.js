@@ -1,4 +1,8 @@
 const formacaoAcademicaContainer = document.getElementById("formacao-academica-container");
+const cursoLista = document.getElementById("curso-lista");
+
+formacaoAcademica();
+formacaoCursos();
 
 async function formacaoAcademica() {
   const response = await fetch("/asset/json/formacao.json");
@@ -18,6 +22,13 @@ async function formacaoAcademica() {
   });
 }
 
-formacaoAcademica();
-
-
+async function formacaoCursos() {
+  const response = await fetch("/asset/json/cursos.json");
+  const cursos = await response.json();
+  
+  cursos.forEach((c) => {
+    let cursosLi = document.createElement("li");
+    cursosLi.innerText = c.curso;
+    cursoLista.appendChild(cursosLi);
+  });
+}
