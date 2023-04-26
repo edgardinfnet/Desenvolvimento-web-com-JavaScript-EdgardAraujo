@@ -6,6 +6,11 @@ const profissionalForm = document.getElementById("profissional");
 const mensagemForm = document.getElementById("mensagem");
 const urgenciaForm = document.getElementById("urgencia");
 
+const formInputs = document.querySelectorAll(".inputs-texts");
+formInputs.forEach((f) => {
+  f.classList.add("inputs-border");
+});
+
 contatoForm.onsubmit = (event) => {
   event.preventDefault();
 
