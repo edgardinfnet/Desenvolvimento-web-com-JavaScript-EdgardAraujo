@@ -1,7 +1,7 @@
 [
   {
     "url": "https://www.ey.com/pt_br",
-    "imagem": "img/ey.jpeg",
+    "imagem": "asset/img/ey.jpeg",
     "alt":"logo ey",
     "empresa": "EY",
     "cargo": "Consultor sênior",
@@ -11,7 +11,7 @@
     "descricao": "Em construção"
   },{
     "url": "https://www.spassu.com.br/",
-    "imagem": "img/spassu.jpeg",
+    "imagem": "asset/img/spassu.jpeg",
     "alt":"logo spassu",
     "empresa": "Spassu Tecnologia e Serviços",
     "cargo": "Analista de sistemas sênior",
@@ -21,7 +21,7 @@
     "descricao": "Dentro de um time de desenvolvimento ágil (SCRUM) remoto, atuei na Petrobras em diversos projetos como responsável pelo desenvolvimento front end utilizando o Angular e outros frameworks. Basicamente a integração como back end era feita por APIs REST do tipo JSON. Tecnologias utilizadas: Web design responsivo, PrimeNG · Kanban, Scrum, banco de dados Oracle, Angular (Framework), Bootstrap, JavaScript, CSS, HTML5, JSON, Angular Material, TypeScript."
   },{
     "url": "https://missoesmundiais.com.br/",
-    "imagem": "img/jmm.jpeg",
+    "imagem": "asset/img/jmm.jpeg",
     "alt":"logo jmm",
     "empresa": "Missões Mundiais",
     "cargo": "Analista de programação pleno",
@@ -31,7 +31,7 @@
     "descricao": "Líder da equipe de desenvolvimento. Responsável pelos novos e sistemas legados em Java, Delphi e banco de dados Oracle, Além disso iniciei novos projetos utilizando HTML5, CSS, Angular, JSON, JavaScript, Bootstrap. Tecnologias utilizadas: Web design responsivo, Kanban, Scrum, Windows Azure, banco de dados Oracle, Delphi, Angular (Framework), Bootstrap, JavaScript, CSS, HTML5, JSON, Java."
   },{
     "url": "http://lifecon.com.br/",
-    "imagem": "img/life.jpeg",
+    "imagem": "asset/img/life.jpeg",
     "alt":"logo life con",
     "empresa": "Life Tecnologia e Consultoria",
     "cargo": "Web Designer",
@@ -41,7 +41,7 @@
     "descricao": "Responsável pelo front end construindo e reformulando páginas web e de sistemas criados pelo departamento. Definições de padrões de usabilidade e aplicação de design responsivo utilizando HTML5, CSS, JavaScript, jQuery, jQuery mobile, Bootstrap e JSON. Tecnologias utilizadas: Web design responsivo, experiência do usuário (UX), JQuery, Bootstrap, JavaScript, CSS, PHP, HTML5, JSON."
   },{
     "url": "#",
-    "imagem": "img/sem-img.jpeg",
+    "imagem": "asset/img/sem-img.jpeg",
     "alt":"logo localiza-ti",
     "empresa": "Localizar Tecnologia da Informação",
     "cargo": "Desenvolvedor web jr",

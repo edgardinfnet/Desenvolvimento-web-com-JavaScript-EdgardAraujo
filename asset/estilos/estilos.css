@@ -155,6 +155,11 @@ textarea {
   color: #ededed;
 }
 
+.inputs-border {
+  border: none;
+  border-radius: 8px;
+}
+
 .navbar-footer {
   background-color: #002855;
   position: fixed;
