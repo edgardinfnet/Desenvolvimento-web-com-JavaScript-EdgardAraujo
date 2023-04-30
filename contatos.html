@@ -24,27 +24,28 @@
     <div id="curriculo-titulos" class="curriculo-titulos"></div>
   </div>
 
-  <div class="contatos-container">
+<div class="contatos-container">
     <h3 class="contatos-titulo">Contato</h3>
     <div class="contatos-mensagem">
-      <form novalidate id="form-contato" class="form-contato" method="post"
-        action="https://getform.io/f/563d66ee-b660-4ef3-92c5-9cc900289252">
+      <form class="form-contato" method="post" action="https://getform.io/f/563d66ee-b660-4ef3-92c5-9cc900289252">
         <div class="form-inputs">
           <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome" class="inputs-texts" placeholder="Digite seu nome">
+          <input type="text" name="nome" id="nome" placeholder="Digite seu nome" minlength="4" maxlength="32" required>
         </div>
         <div class="form-inputs">
           <label for="telefone">Telefone:</label>
-          <input type="tel" name="telefone" id="telefone" class="inputs-texts" placeholder="Digite seu telefone">
+          <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" minlength="10"
+            maxlength="20" required>
         </div>
         <div class="form-inputs">
           <label for="email">Email:</label>
-          <input type="email" name="email" id="email" class="inputs-texts" placeholder="Digite seu email">
+          <input type="email" name="email" id="email" placeholder="Digite seu email" minlength="9" maxlength="30"
+            required>
         </div>
 
         <div>Motivo do contato:</div>
         <div class="form-contato">
-          <input type="radio" id="profissional" name="contato" value="profissional">
+          <input type="radio" id="profissional" name="contato" value="profissional" required>
           <label for="profissional">Fins profissionais</label>
           <input type="radio" id="academico" name="contato" value="academico" required>
           <label for="academico">Fins acadêmicos</label>
@@ -55,8 +56,8 @@
         </div>
 
         <div class="form-inputs">
-          <textarea id="mensagem" class="inputs-texts" name="mensagem" placeholder="Digite sua mensagem"
-            rows="5"></textarea>
+          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5" minlength="20"
+            maxlength="320" required></textarea>
         </div>
 
         <div class="form-contato">
@@ -70,7 +71,7 @@
       </form>
     </div>
   </div>
-
+  
   <div class="navbar-footer">
     <a href="index.html">Sobre</a>
     <a href="experiencias-profissionais.html">Experiência</a>
