@@ -1,5 +1,7 @@
 const experienciasContainer = document.getElementById("experiencias-container");
 
+experiencias();
+
 async function experiencias() {
   const response = await fetch("/asset/json/experiencias.json");
   const experiencias = await response.json();
@@ -35,5 +37,3 @@ async function experiencias() {
     experienciasContainer.appendChild(divLogoExperiencia);
   });
 }
-
-experiencias();
